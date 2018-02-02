@@ -1,0 +1,7 @@
+V:\Main Academy\CSharp_Net\Lab_4\bin\Debug\Lab_4.exe.config
+V:\Main Academy\CSharp_Net\Lab_4\bin\Debug\Lab_4.exe
+V:\Main Academy\CSharp_Net\Lab_4\bin\Debug\Lab_4.pdb
+V:\Main Academy\CSharp_Net\Lab_4\obj\Debug\Lab_4.csprojResolveAssemblyReference.cache
+V:\Main Academy\CSharp_Net\Lab_4\obj\Debug\Lab_4.csproj.CoreCompileInputs.cache
+V:\Main Academy\CSharp_Net\Lab_4\obj\Debug\Lab_4.exe
+V:\Main Academy\CSharp_Net\Lab_4\obj\Debug\Lab_4.pdb

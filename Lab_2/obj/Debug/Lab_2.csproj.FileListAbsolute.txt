@@ -1,0 +1,14 @@
+C:\Users\Василий\Main Academy\MyFirstProgram(No)\Lab_2\bin\Debug\Lab_2.exe.config
+C:\Users\Василий\Main Academy\MyFirstProgram(No)\Lab_2\bin\Debug\Lab_2.exe
+C:\Users\Василий\Main Academy\MyFirstProgram(No)\Lab_2\bin\Debug\Lab_2.pdb
+C:\Users\Василий\Main Academy\MyFirstProgram(No)\Lab_2\obj\Debug\Lab_2.csprojResolveAssemblyReference.cache
+C:\Users\Василий\Main Academy\MyFirstProgram(No)\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\Василий\Main Academy\MyFirstProgram(No)\Lab_2\obj\Debug\Lab_2.exe
+C:\Users\Василий\Main Academy\MyFirstProgram(No)\Lab_2\obj\Debug\Lab_2.pdb
+V:\Main Academy\CSharp_Net\Lab_2\bin\Debug\Lab_2.exe.config
+V:\Main Academy\CSharp_Net\Lab_2\bin\Debug\Lab_2.exe
+V:\Main Academy\CSharp_Net\Lab_2\bin\Debug\Lab_2.pdb
+V:\Main Academy\CSharp_Net\Lab_2\obj\Debug\Lab_2.csprojResolveAssemblyReference.cache
+V:\Main Academy\CSharp_Net\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+V:\Main Academy\CSharp_Net\Lab_2\obj\Debug\Lab_2.exe
+V:\Main Academy\CSharp_Net\Lab_2\obj\Debug\Lab_2.pdb

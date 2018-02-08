@@ -12,22 +12,29 @@ namespace Lab_6
 
     interface ILibraryUser
     {
+        void AddBook(string nameBook);
+
+        void RemoveBook(string bookName);
+
+        string BookInfo(int index);
+
+        int BooksCount();
 
     }
 
     // 2) declare class LibraryUser, it implements ILibraryUser
-    public class LibraryUser
+    public class LibraryUser: ILibraryUser
     {
         // 3) declare properties: FirstName (read only), LastName (read only), 
         // Id (read only), Phone (get and set), BookLimit (read only)
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Id { get; set; }
+        public string FirstName { get;}
+        public string LastName { get;}
+        public int Id { get;}
         public string Phone { get; set; }
-        public int BookLimit { get; set; }
+        public int BookLimit { get;}
 
         // 4) declare field (bookList) as a string array
-        string[] bookList = new string[10];
+        string[] bookList;
 
         // 5) declare indexer BookList for array bookList
         int BookList=0;
@@ -40,14 +47,17 @@ namespace Lab_6
             Id = 0;
             Phone = "+380971272314";
             BookLimit = 5;
+            bookList = new string[BookLimit];
         }
 
-        public LibraryUser(string FirstName, string LastName, string Phone, int Id)
+        public LibraryUser(string FirstName, string LastName, int Id, string Phone, int BookLimit)
         {
             this.FirstName = FirstName;
             this.LastName = LastName;
             this.Phone = Phone;
             this.Id = Id;
+            this.BookLimit = BookLimit;
+            bookList = new string[this.BookLimit];
         }
 
         // 7) declare methods: 

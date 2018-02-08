@@ -8,7 +8,7 @@ namespace Lab_6
         static void Main(string[] args)
         {
             // 8) declare 2 objects. Use default and paremeter constructors
-            LibraryUser user1 = new LibraryUser(), user2 = new LibraryUser("Maria", "Ivanenko", "+380447777777", 2);
+            LibraryUser user1 = new LibraryUser(), user2 = new LibraryUser("Maria", "Ivanenko", 2, "+380447777777", 19);
             Console.WriteLine("User1 " + user1.FirstName + " " + user1.LastName);
             Console.WriteLine("User2 " + user2.FirstName + " " + user2.LastName);
 

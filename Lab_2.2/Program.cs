@@ -1,39 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Lab_8
+namespace Lab_7
 {
     class Program
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Box p1 = new Box();
-                Console.WriteLine("Type  position of the box, x = ");
-                p1.x_pos = uint.Parse(Console.ReadLine());
-                Console.WriteLine("Type  position of the box: y = ");
-                p1.y_pos = uint.Parse(Console.ReadLine());
-                Console.WriteLine("Type  width of the box: width = ");
-                p1.width_pos = uint.Parse(Console.ReadLine());
-                Console.WriteLine("Type  height of the box: height = ");
-                p1.height_pos = uint.Parse(Console.ReadLine());
-                Console.WriteLine("Type one of chars : *, +, .  ");
-                p1.symb_dr = char.Parse(Console.ReadLine());
-                Console.WriteLine("Type  the message :  ");
-                p1.mess = Console.ReadLine();
-
-                Console.WriteLine("Drawing ...");
-                p1.Draw();
-                Console.WriteLine();
-                Console.WriteLine(p1.mess);
-                Console.WriteLine("Press any key...");
-                Console.ReadLine();
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Error!");
-            }
-
+            //Define parameters to calculate the factorial of
+            Console.WriteLine("Please input number");
+            int f1 = int.Parse(Console.ReadLine());
+            //Call fact() method to calculate
+            Console.WriteLine("Result: " + fact(f1, 1));
+            Console.ReadLine();
         }
+
+        //Create fact() method  with parameter to calculate factorial
+        //Use ternary operator
+        public static int fact(int f2, int i)
+        {
+            return i *= i < f2 ? fact(f2, ++i) : 1;
+        }
+
     }
 }
